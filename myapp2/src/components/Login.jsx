@@ -14,8 +14,10 @@ export default function Login() {
 
     } else {
        navigate("/login-failed");
-        alert("Invalid credentials");
-
+        alert("Invalid credentials! redirecting to login page in 2 seconds...");
+        setTimeout(() => {
+            navigate("/");
+        }, 2000);
     }
 };
 return (
