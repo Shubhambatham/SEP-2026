@@ -1,0 +1,31 @@
+Drive Link for Code
+https://drive.google.com/drive/folders/1BPTNLnctpzT0jjvdaK6ZkGjyCiJxqHHR
+
+Terminal NPM Commands
+
+Create New Project:
+npm init
+npm create vite@latest task-app(NAME OF THE PROJ) 
+
+Run the Project:
+npm run dev
+npm run build
+
+Show directory contents
+dir n*
+
+Create a new file:
+new-item server.js(EXPRESS FILE NAME)           
+
+Initialize a Project:
+npm init -y
+
+Install CORS and SQLite: 
+npm install express sqlite3 cors(INSTALLATION LIBRARY NAMES)
+npm install axios
+
+Start the express server: 
+node serever.js
+npm start
+
+
