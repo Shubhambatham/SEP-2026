@@ -1,0 +1,21 @@
+import { useState } from 'react'
+import heroImg from './assets/hero.png'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import './App.css'
+import AccountsCRUD from './components/AccountsCRUD'
+import AccountsCRUD1 from './components/AccountsCRUD1'
+import AccountsCRUD2 from './components/AccountsCRUD2'
+import AccountsCRUD3 from './components/AccountsCRUD3'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <AccountsCRUD3 />
+    </>
+  )
+}
+
+export default App

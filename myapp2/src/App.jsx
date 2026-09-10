@@ -3,21 +3,26 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Menu from "./components/Menu";
 import LoginFailed from "./components/LoginFailed";
+import FetchUser from "./components/FetchUser";
 
 export default function App() {
 
     return (
-        <BrowserRouter>
+        // <BrowserRouter>
 
-            <Routes>
+        //     <Routes>
+                
+        //         <Route path="/" element={<Login />} />
 
-                <Route path="/" element={<Login />} />
+        //         <Route path="/menu/*" element={<Menu />} />
+        //         <Route path="/login-failed" element={<LoginFailed />} />
 
-                <Route path="/menu/*" element={<Menu />} />
-                <Route path="/login-failed" element={<LoginFailed />} />
+        //     </Routes>
 
-            </Routes>
+        // </BrowserRouter>
 
-        </BrowserRouter>
+        <>
+        <FetchUser />
+        </>
     );
 }
